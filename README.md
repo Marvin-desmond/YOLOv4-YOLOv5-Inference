@@ -16,7 +16,6 @@ __*Concepts that have been illustrated include:*__
 
 [^1]: [YOLOv4 model zoo](https://github.com/AlexeyAB/darknet/wiki/YOLOv4-model-zoo)
 [^2]: [YOLOv5 model zoo](https://github.com/ultralytics/yolov5/releases)
-:point_right: YOLOv4 Interesting [Article](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61) by Jonathan Hui
 
 :pushpin: __NB: *During PyTorch serialization, the pickling tends to reference the Layer modules during torch.load, why so?*__
 
@@ -46,6 +45,7 @@ Which means the source code and the source file are pickled to. This results in 
 
 __*Hence, the files `yolo.py` and `common.py` cannot be deleted since serialization uses them during `torch.load`*__
 
+:point_right: YOLOv4 Interesting [Article](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61) by Jonathan Hui
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-166FC5?style=border-radius:3px&logo=LinkedIn&logoColor=white)
 ](https://www.linkedin.com/in/marvin-mboya-b7bb81195/) [![github](https://img.shields.io/badge/GitHub-000000?style=border-radius:3px&logo=GitHub&logoColor=white)](https://github.com/Marvin-desmond)

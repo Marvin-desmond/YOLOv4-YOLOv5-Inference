@@ -16,7 +16,7 @@ __*Concepts that have been illustrated include:*__
 
 [^1]: [YOLOv4 model zoo](https://github.com/AlexeyAB/darknet/wiki/YOLOv4-model-zoo)
 [^2]: [YOLOv5 model zoo](https://github.com/ultralytics/yolov5/releases)
-[^3]: point_right: YOLOv4 Interesting [Article](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61) by Jonathan Hui
+[^3]: :point_right: YOLOv4 Interesting [Article](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61) by Jonathan Hui
 
 :pushpin: __NB: *During PyTorch serialization, the pickling tends to reference the Layer modules during torch.load, why so?*__
 

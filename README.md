@@ -40,4 +40,5 @@ Which means the source code and the source file are pickled to. This results in 
 
 __*Hence, the files `yolo.py` and `common.py` cannot be deleted since serialization uses them during `torch.load`*__
 [![linkedin](https://img.shields.io/badge/LinkedIn-166FC5?style=border-radius:3px&logo=LinkedIn&logoColor=white)
-]](https://www.linkedin.com/in/marvin-mboya-b7bb81195/) [![github](https://img.shields.io/badge/GitHub-000000?style=border-radius:3px&logo=GitHub&logoColor=white)](https://github.com/Marvin-desmond)
+]](https://www.linkedin.com/in/marvin-mboya-b7bb81195/) 
+[![github](https://img.shields.io/badge/GitHub-000000?style=border-radius:3px&logo=GitHub&logoColor=white)](https://github.com/Marvin-desmond)

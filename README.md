@@ -36,11 +36,11 @@ if  isinstance(obj, type) and  issubclass(obj, nn.Module):
 	return ('module', obj, source_file, source)
 ```
 Which means the source code and the source file are pickled to. This results in the fact, that your source file will be parsed again during loading (and compared to the pickled source code to generate warnings if necessary). This source file is then used for model creation if the changes can be merged automatically. And thus adding new methods is valid as long as you don’t change the existing ones in a way that prevents python from merging automatically.
+> <img src="https://discuss.pytorch.org/uploads/default/original/2X/3/38d28fd067a1a8f263e14507942b2e38e49b771a.png" alt="PyTorch forums"/>
 >![PyTorch Forums](https://discuss.pytorch.org/uploads/default/original/2X/3/38d28fd067a1a8f263e14507942b2e38e49b771a.png =18x18)     [Question about serialization while saving models in PyTorch](https://discuss.pytorch.org/t/question-about-serialization-while-saving-models-in-pytorch/23212)
 
 __*Hence, the files `yolo.py` and `common.py` cannot be deleted since serialization uses them during `torch.load`*__
 
-[[https://discuss.pytorch.org/uploads/default/original/2X/3/38d28fd067a1a8f263e14507942b2e38e49b771a.png|width=400px]]
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-166FC5?style=border-radius:3px&logo=LinkedIn&logoColor=white)
 ](https://www.linkedin.com/in/marvin-mboya-b7bb81195/) [![github](https://img.shields.io/badge/GitHub-000000?style=border-radius:3px&logo=GitHub&logoColor=white)](https://github.com/Marvin-desmond)

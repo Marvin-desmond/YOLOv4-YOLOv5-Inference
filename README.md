@@ -14,6 +14,10 @@ __*Concepts that have been illustrated include:*__
  + Showing detections on image
  + Visualize image
 
+[YOLOv4 model zoo](https://github.com/AlexeyAB/darknet/wiki/YOLOv4-model-zoo)
+[YOLOv5 model zoo](https://github.com/ultralytics/yolov5/releases)
+:point_right: YOLOv4 Interesting [Article](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61) by Jonathan Hui
+
 :pushpin: __NB: *During PyTorch serialization, the pickling tends to reference the Layer modules during torch.load, why so?*__
 
 `torch.save`  basically only calls  `torch._save`

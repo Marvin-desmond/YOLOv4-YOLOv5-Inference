@@ -15,6 +15,7 @@ __*Concepts that have been illustrated include:*__
  + Visualize image
 
 :pushpin: __NB: *During PyTorch serialization, the pickling tends to reference the Layer modules during torch.load, why so?*__
+
 `torch.save`  basically only calls  `torch._save`
 Inside this function there is a function named  `persistent_id`  defined and beside other things the return values of this function are pickled.
 

@@ -1,6 +1,6 @@
 ### Hi there! :wave:
 ***
-### YOLOv5 :rocket: YOLOv4 <img alt="darknet" src="https://camo.githubusercontent.com/6b3c6c1109586f5f3ddf8967fa4eaf787c7b45fe3df6d89111d6f9c7c1045769/687474703a2f2f706a7265646469652e636f6d2f6d656469612f66696c65732f6461726b6e65742d626c61636b2d736d616c6c2e706e67" width="30px"/>
+### YOLOv4[^1] <img alt="darknet" src="https://camo.githubusercontent.com/6b3c6c1109586f5f3ddf8967fa4eaf787c7b45fe3df6d89111d6f9c7c1045769/687474703a2f2f706a7265646469652e636f6d2f6d656469612f66696c65732f6461726b6e65742d626c61636b2d736d616c6c2e706e67" width="30px"/> YOLOv5[^2] :rocket: 
 
 > This repo contains the inference pipelines for both AlexeyAB YOLO Darknet model and Ultralytics YOLO PyTorch model.
 
@@ -14,10 +14,8 @@ __*Concepts that have been illustrated include:*__
  + Showing detections on image
  + Visualize image
 
-[YOLOv4 model zoo](https://github.com/AlexeyAB/darknet/wiki/YOLOv4-model-zoo)
-
-[YOLOv5 model zoo](https://github.com/ultralytics/yolov5/releases)
-
+[^1]: [YOLOv4 model zoo](https://github.com/AlexeyAB/darknet/wiki/YOLOv4-model-zoo)
+[^2]: [YOLOv5 model zoo](https://github.com/ultralytics/yolov5/releases)
 :point_right: YOLOv4 Interesting [Article](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61) by Jonathan Hui
 
 :pushpin: __NB: *During PyTorch serialization, the pickling tends to reference the Layer modules during torch.load, why so?*__
